@@ -8,7 +8,14 @@ Changes field values are marked with a different color for visualizing which of 
 
 If the product has variants you can switch to another variant or to the parent without choosing the main tab.
 
-Tested with OXID versions 4.7, 4.8, 4.9 and 4.10. 
+Tested with OXID version 6.0
+
+
+## Setup ##
+
+OXID eShop 6:
+
+`composer require ecs/jxattredit`
 
 
 ### Screenshot ###

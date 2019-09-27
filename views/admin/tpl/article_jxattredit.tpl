@@ -129,7 +129,7 @@ function switchVariant(obj)
                         &nbsp;[{if $Attribute.oxdisplayinbasket}]<b>[{/if}][{ $Attribute.oxtitle }][{if $Attribute.oxdisplayinbasket}] *</b>[{/if}]&nbsp;&nbsp;
                     </td>
                     <td class="[{ $listclass }]">
-                        <input type="text" size="[{$txtWidth}]" maxlength="255" id="attrval_[{$rownum}]" name="attrval_[{$rownum}]" value="[{ $Attribute.oxartvalue|escape }]" 
+                        <input type="text" size="[{$txtWidth}]" maxlength="255" id="attrval_[{$rownum}]" name="attrval_[{$rownum}]" value="[{ $Attribute.oxartvalue|escape }]"
                                style="width:95%" onChange="[{$onChangeStyle}]">
                     </td>
                     <td class="[{ $listclass }]">
